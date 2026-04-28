@@ -1,6 +1,11 @@
 # Calculadora TDD
-
 Proyecto desarrollado en Python usando la metodología TDD.
+
+## Ejecución
+python main.py
+
+## Ejecución del Tests
+python test_calculadora.py
 
 ## Funcionalidades
 - Suma
@@ -10,8 +15,3 @@ Proyecto desarrollado en Python usando la metodología TDD.
 - Raíz cuadrada (Newton-Raphson)
 - Exponencial (Serie de Taylor)
 
-## Ejecución
-python main.py
-
-## Tests
-python test_calculadora.py
