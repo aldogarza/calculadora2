@@ -18,6 +18,11 @@ while True:
             a = int(input("A: "))
             b = int(input("B: "))
             print("Resultado:", Calculadora.restar(a, b))
+
+        elif opcion == "3":
+            a = int(input("A: "))
+            b = int(input("B: "))
+            print("Resultado:", Calculadora.multiplicar(a, b))
         
 
     except Exception as e:
