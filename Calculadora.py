@@ -16,3 +16,14 @@ class Calculadora:
         if b==0:
             raise ValueError("No se puede dividir entre cero")
         return a/b
+    
+    @staticmethod 
+    def raiz(x):
+        # Metodo de Newton-Raphson 
+        if x < 0:
+            raise ValueError("No se puede Raiz Negativa")
+        aproximacion = x if x!=0 else 1
+        for _ in range(20):
+            aproximacion=0.5*(aproximacion + x /aproximacion)
+
+        return aproximacion

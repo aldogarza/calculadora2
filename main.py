@@ -3,6 +3,10 @@ from Calculadora import Calculadora
 def menu():
     print("\n--- CALCULADORA TDD ---")
     print("1. Sumar")
+    print("2. Restar")
+    print("3. Multiplicar")
+    print("4. Dividir")
+    print("5. Raíz cuadrada")
 
 while True:
     menu()
@@ -28,6 +32,11 @@ while True:
             a = float(input("A: "))
             b = float(input("B: "))
             print("Resultado:", Calculadora.dividir(a, b))
+        
+        elif opcion == "5":
+            x = float(input("Número: "))
+            print("Resultado:", Calculadora.raiz(x))
+
         
 
     except Exception as e:
