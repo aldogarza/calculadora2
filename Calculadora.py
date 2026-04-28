@@ -1,2 +1,4 @@
 class Calculadora:
-    pass
+    @staticmethod
+    def sumar(a,b):
+        return a+b
