@@ -27,3 +27,13 @@ class Calculadora:
             aproximacion=0.5*(aproximacion + x /aproximacion)
 
         return aproximacion
+    
+    @staticmethod
+    def exp(x):
+        # Serie de Taylor
+        suma = 1
+        termino = 1
+        for n in range(1,20):
+            termino = termino * x / n
+            suma += termino
+        return suma

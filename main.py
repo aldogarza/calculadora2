@@ -7,6 +7,8 @@ def menu():
     print("3. Multiplicar")
     print("4. Dividir")
     print("5. Raíz cuadrada")
+    print("6. Exponencial (e^x)")
+    print("0. Salir")
 
 while True:
     menu()
@@ -36,6 +38,17 @@ while True:
         elif opcion == "5":
             x = float(input("Número: "))
             print("Resultado:", Calculadora.raiz(x))
+
+        elif opcion == "6":
+            x = float(input("Exponente: "))
+            print("Resultado:", Calculadora.exp(x))
+
+        elif opcion == "0":
+            print("Adiós")
+            break
+
+        else:
+            print("Opción inválida")
 
         
 
