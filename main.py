@@ -13,6 +13,12 @@ while True:
             a = int(input("A: "))
             b = int(input("B: "))
             print("Resultado:", Calculadora.sumar(a, b))
-            
+        
+        elif opcion == "2":
+            a = int(input("A: "))
+            b = int(input("B: "))
+            print("Resultado:", Calculadora.restar(a, b))
+        
+
     except Exception as e:
         print("Error:", e)
