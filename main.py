@@ -23,6 +23,11 @@ while True:
             a = int(input("A: "))
             b = int(input("B: "))
             print("Resultado:", Calculadora.multiplicar(a, b))
+
+        elif opcion == "4":
+            a = float(input("A: "))
+            b = float(input("B: "))
+            print("Resultado:", Calculadora.dividir(a, b))
         
 
     except Exception as e:
